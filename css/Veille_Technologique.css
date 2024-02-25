@@ -15,7 +15,7 @@ body {
   }*/
   
   .Titre {
-    background-image: url('../images/Veille_technologique/veille_technologie.jpg');
+    background-image: url(/img/veille.jpg);
     background-color: rgb(0, 0, 0);
     background-size: cover;
     background-position: 0 0px;
@@ -197,20 +197,7 @@ body {
     display: none;
   }
   
-  /* menu dÃ©roulant */
-  /* menu dÃ©roulant */
-  /* menu dÃ©roulant */
-  /* menu dÃ©roulant */
-  
-  /* search bar */
-  /* search bar */
-  /* search bar */
-  /* search bar */
-  
-  /* Scroll top */
-  /* Scroll top */
-  /* Scroll top */
-  /* Scroll top */
+ 
   #myBtn {
     background-image: url('../images/top.png');
     background-size: 25px;
@@ -228,11 +215,7 @@ body {
     border-radius: 4px;
   }
   
-  /* Scroll top */
-  /* Scroll top */
-  /* Scroll top */
-  /* Scroll top */
-  
+ 
   
   
   .description_veille {
