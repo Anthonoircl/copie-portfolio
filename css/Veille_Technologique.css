@@ -1,3 +1,10 @@
+/* ! Ce nom de fichier est juste horrible, il ne faut pas être aussi textuel, sois conscis. */
+/* Au pire utilise des commentaires pour expliquer ce que le fichier fait, c'est une des meilleures pratiques */
+
+/* Petit conseil : préscise bien ce que fait chaque classe dès son nom 
+Par exemple au lieux d'avoir une classe appelée "Titre", il me semble que tu en as plusieures des comme ça 
+Donc tu devrais appeler ça genre veille_titre / veille_titre_pro */
+
 body {
     font-family: "Poppins", sans-serif;
     margin-left: 75px;

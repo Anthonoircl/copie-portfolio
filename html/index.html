@@ -9,6 +9,8 @@
     <meta name="description" content="Portfolio - CLAIRON Anthony (BTS SIO SISR). Bienvenue sur mon PortFolio, vous pourrez y retrouver l'ensemble de mes compétences et réalisations professionnelles. "  />
     <meta name="author" content="CLAIRON Anthony." />
 
+    <!-- Il est préférable d'utiliser ton style.css en tant que seul fichier à importer -->
+    <!-- Comme ça tu importe les autres fichiers dedans et tu charge qu'un seul fichier avec tout ce qu'il te faut dedans -->
     <link rel="stylesheet" type="text/css" href="/css/style.css" media="all">
     <link rel="stylesheet" type="text/css" href="/css/Header.css" media="all">
     <link rel="stylesheet" type="text/css" href="/css/Acceuil.css" media="all">
@@ -24,6 +26,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
 
+    <!-- Pense à mettre une favicon ce seras bien. Genre met ta tronche ou un logo qui te représente -->
+    <!-- Exemple <link rel="icon" type="image/png" href="/img/Logo.png" /> -->
+
 </head>
 
 
@@ -32,8 +37,10 @@
 
     <div class="container">
         <div class="navigation">
+            <!-- Ton menu toggle il sert à rien -->
             <div class="menu-toggle"></div>
             <ul class="list">
+                <!-- MEC c'est quoi cette HORREUR ton style="--color:#67B3E4" c'est ultra hacky, utilise plutot une classe pour ça -->
                 <li class="list-item active" style="--color:#67B3E4"><a href="/html/index.html">
                         <span class="icon">
                             <ion-icon name="home-outline"></ion-icon>
@@ -74,6 +81,7 @@
         <section class="Titre">
             <h1 class="Titre1"> Bonjour <br></h1>
             <hr class="HRnormal">
+            <!-- Ce <br> sert à rien -->
             <h1 class="Titre2"> Je m'appelle Anthony CLAIRON <br></h1>
             <h1 class="Titre3"> Etudiant en BTS SIO option SISR</h1>
         </section>
@@ -161,6 +169,7 @@
                 <div class="title">Brevet des collèges</div>
                 <div class="descr">
                   Lycée Français de Pondichéry <br>Mentions Très Bien<br>
+                  <!-- ta balise a est censée englober ton bouton pour que le click fonctionne -->
                   <a href="https://lfpondichery.net" target="_blank" rel="noreferrer"></a>
                     <button id="site1"> Site web du collège </button>
                 </div>

@@ -1,3 +1,11 @@
+/* ! Ici il faudrais que ce soie ton fichier principal CSS dans lequel tu ferais tout tes imports */
+/* 
+@import "Accueil.css";
+@import "Footer.css";
+@import "Header.css";
+@import "Realisation_Pro.css"; 
+*/
+
 html {
     scroll-behavior: smooth;
 }

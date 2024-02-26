@@ -1,9 +1,30 @@
+/* TODO :Stocker les couleurs dans des variables CSS */
+/* Example avec un main color et son utilisation avec un élément h1 :
+/* :root {
+  --main-color: #ff0000;
+} 
+h1 { 
+  color: var(--main-color); 
+} */
+
+/* TODO : Fait gaffe à faire à ce que ton code sois bien indenté, c'est que visuel et un peu du nitpick, mais tout de même */
+
+/* TODO : Je te conseille de faire du lowercase, les premières lettres en majuscule c'est moche */
+/* Il est préférable de faire : 
+présentation / hr-normal / description-personelle
+
+Ou bien avec un underscore (perso j'aime moins que le "-" mais c'est une question de goût) :
+presentation / hr_normal / description_personelle
+
+Ou bien en camel case, c'est plus beau que le kebabCase mais plus moche que le lowercase avec "-" ou underscore :
+presentation / hrNormal / descriptionPersonelle */
+
 body {
     font-family: "Poppins", sans-serif;
     margin-left: 75px;
   }
   
-  
+  /* ! La c'est même pas du kebabCase, car en KebabCase ce serais HrNormal */
   .HRnormal {
     color: black;
     margin: 0%;
@@ -11,9 +32,6 @@ body {
     border: 1px solid rgb(0, 0, 0);
     background-color: black;
   }
-  
-  
-  /* Presentation */
   
   .Presentation {
     padding-top: 12%;
@@ -51,18 +69,7 @@ body {
       )
   }
   
-  /* PrÃ©sentatiion */
-  /* PrÃ©sentatiion */
-  /* PrÃ©sentatiion */
-  /* PrÃ©sentatiion */
-  
-  
-  
-  
-  /* Description personnelle */
-  /* Description personnelle */
-  /* Description personnelle */
-  
+  /* ! Description personnelLE */
   .DescriptionPersonnel {
     background: linear-gradient(to right,
         #67B3E4 -30%, #95A3E0 100%
@@ -241,6 +248,7 @@ body {
     top: 3px;
   }
   
+   /* ! C'est quoi tout ces commentaires inutiles et répétés plusieures fois ? Il faut cleaner ton code */
   /*Certification*/
   /*Certification*/
   /*Certification*/
@@ -255,8 +263,11 @@ body {
   /* Firse chronologique */
   /* Firse chronologique */
   
+  /* ! Met cet import tout en haut du fichier !!!!!!!! */
   @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap");
   
+  /* Ce genre de choses fait les plutot dans un fichier principal qui s'apelle reset.css
+  Comme ça tu enlève le style générique des navigateurs */
   *,
   *::before,
   *::after {
@@ -264,6 +275,7 @@ body {
     padding: 0;
     box-sizing: border-box;
   }
+
   
   .frise_chronologique {
     background-color: rgb(235, 235, 235);
@@ -276,6 +288,7 @@ body {
     font-size: 20px;
     font-family: "Poppins", sans-serif;
     color: var(--color);
+     /* ! C koa ça, tu as des variables de couleurs qui n'existent pas dans ton projet */
     background: var(--bgColor);
   }
   
@@ -513,13 +526,6 @@ body {
       --col-gap: 1rem;
   }
   }
-  
-  /* Firse chronologique */
-  /* Firse chronologique */
-  /* Firse chronologique*/
-  
-  
-  
  
   ::selection {
     color: #fff;

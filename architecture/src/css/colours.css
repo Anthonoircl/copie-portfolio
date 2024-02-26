@@ -1,0 +1,26 @@
+/* All of the project colours */
+
+:root {
+    --white-color: #FFFFFF;
+    --black-color: #000000;
+
+    --white-gray-color: #f2f2f2;
+
+    --blue-ocean-color: #00DDEB;
+    --blue-other-color: #3ea0e2;
+    --blue-color: #67B3E4;
+    --blue-dark-color: #95A3E0;
+    --blue-very-dark-color: #2A265F;
+    --blue-purplish-color: #5B42F3;
+
+    --orange-color: #f4a538dc;
+
+    --purple-color: #C292DE;
+    --purple-dark-color: #AF40FF;
+    
+    --background-gray-color: #b8b8b8;
+
+    --transparency-light: rgba(0, 0, 0, 0.2);
+    --transparency-medium: rgba(0, 0, 0, 0.5);
+    --transparency-high: rgba(0, 0, 0, 0.8);
+}
