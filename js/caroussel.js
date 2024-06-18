@@ -12,7 +12,7 @@ const handleOnMove = e => {
   
   const mouseDelta = parseFloat(track.dataset.mouseDownAt) - e.clientX,
         maxDelta = window.innerWidth / 2;
-  
+
   const percentage = (mouseDelta / maxDelta) * -100,
         nextPercentageUnconstrained = parseFloat(track.dataset.prevPercentage) + percentage,
         nextPercentage = Math.max(Math.min(nextPercentageUnconstrained, 0), -100);
@@ -30,7 +30,7 @@ const handleOnMove = e => {
   }
 }
 
-/* -- Had to add extra lines for touch events -- */
+/* -- ligne supplémentaire pour lorsque l'on bouge la souris et l'on s'arrrete-- */
 
 window.onmousedown = e => handleOnDown(e);
 
