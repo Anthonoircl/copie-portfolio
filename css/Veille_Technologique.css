@@ -13,7 +13,17 @@ body {
     display: flex;
     position: static;
   }*/
-  
+  .paragraphe{
+    justify-content: center;
+    margin-left: 15%;
+    margin-right: 15%;
+  }
+  .img {
+    max-width :"840" ;
+    max-height :"420";
+    margin-left: 34%;
+    
+  }
   .Titre {
     background-image: url(/img/veille.jpg);
     background-color: rgb(0, 0, 0);
