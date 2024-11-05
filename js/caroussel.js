@@ -6,7 +6,6 @@ const handleOnUp = () => {
   track.dataset.mouseDownAt = "0";  
   track.dataset.prevPercentage = track.dataset.percentage;
 }
-
 const handleOnMove = e => {
   if(track.dataset.mouseDownAt === "0") return;
   
@@ -18,7 +17,7 @@ const handleOnMove = e => {
         nextPercentage = Math.max(Math.min(nextPercentageUnconstrained, 0), -100);
   
   track.dataset.percentage = nextPercentage;
-  
+
   track.animate({
     transform: `translate(${nextPercentage}%, -50%)`
   }, { duration: 1200, fill: "forwards" });
