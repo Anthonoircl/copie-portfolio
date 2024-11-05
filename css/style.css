@@ -92,7 +92,17 @@ h1 {
     height: 100%;
     border: none;
 }
-
+#changing {
+   background: linear-gradient(to right,
+        #67B3E4 -30%, #95A3E0 100%
+        /*#C292DE 0%, #67B3E4 40%, #95A3E0 100%*/
+      );
+    
+}
+#imgchanging{
+margin-left: auto;
+margin-right: auto;
+}
 #DescriptionFormationImg {
     vertical-align: center;
     position: relative;
