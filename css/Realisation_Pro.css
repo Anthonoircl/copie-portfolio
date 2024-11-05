@@ -1,27 +1,111 @@
-body {
-    height: 100vh;
-    width: 100vw;
-    margin: 0rem;
-    overflow: hidden;
+.btn {
+  display: inline-block;
+  padding: 0.9rem 1.8rem;
+  font-size: 25px;
+  font-weight: 700;
+  color: black;
+  border: 3px solid rgb(252, 70, 100);
+  cursor: pointer;
+  position: relative;
+  background-color: transparent;
+  text-decoration: none;
+  overflow: hidden;
+  z-index: 1;
+  font-family: inherit;
+ }
+ 
+ .btn::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgb(252, 70, 100);
+  transform: translateX(-100%);
+  transition: all .3s;
+  z-index: -1;
+ }
+ 
+ .btn:hover::before {
+  transform: translateX(0);
+ }
+  .Titre_pro {
+    text-align: center;
+    padding-top: 15%;
+    line-height: 130%;
+    font-size: 300%;
+    color: rgb(255, 255, 255);
   }
   
-  #image-track {
-    display: flex;
-    gap: 4vmin;
-    position: absolute; 
-    left: 50%;
-    top: 50%;
-    transform: translate(0%, -50%); 
-    user-select: none; /* -- Prevent image highlighting -- */;
-    z-index: 1;
+  @media (max-width: 900px) {
+    .Titre_pro {
+      font-size: 200%;
+    }
   }
   
-  #image-track >a .image {
-    width: 40vmin;
-    height: 56vmin;
-    object-fit: cover;
-    object-position: 100% center;
+  #hr1 {
+    background-color: white;
+    width: 40%;
+    margin-left: 40%;
+    margin-right: 40%;
+    border: solid 4px white;
+    border-radius: 10px;
   }
-  .navigation {
-    z-index: 2;
+  
+  #hr2 {
+    background-color: rgb(0, 0, 0);
+    border: solid 2px rgb(0, 0, 0);
+    border-radius: 10px;
+    margin-left: 30%;
+    margin-right: 30%;
+  
+  }
+  
+  .titres {
+    padding: 2%;
+    font-size: x-large;
+  }
+
+  
+  select option {
+    color: inherit;
+    background-color: #320a28;
+  }
+  
+  select:focus {
+    outline: none;
+  }
+  
+  select::-ms-expand {
+    display: none;
+  }
+  
+ 
+ 
+  
+  .description_veille {
+    background-color: rgb(235, 235, 235);
+    padding-left: 5%;
+    padding: 1%;
+    text-align: center;
+    font-size: x-large;
+    line-height: 140%;
+  }
+  
+  
+  
+  /* optional reset for presentation */
+  
+  .container {
+    margin: 0 auto;
+    width: 100%;
+    text-align: center;
+  }
+  
+  h1 {
+    text-transform: uppercase;
+    font-size: 0.8rem;
+    margin-bottom: 2rem;
+    color: #777;
   }
