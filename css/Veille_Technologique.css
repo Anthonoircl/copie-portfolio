@@ -3,6 +3,10 @@ body {
     margin-left: 75px;
   }
   
+  .screen {
+    justify-content: center;
+    align-items: center;
+  }
   
   
   .paragraphe{
