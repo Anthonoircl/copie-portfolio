@@ -7,8 +7,14 @@ body {
     justify-content: center;
     align-items: center;
   }
-  
-  
+section{
+  justify-content: center;
+  align-items: center;
+}  
+.section{
+  justify-content: center;
+  align-items: center;
+} 
   .paragraphe{
     justify-content: center;
     margin-left: 15%;
